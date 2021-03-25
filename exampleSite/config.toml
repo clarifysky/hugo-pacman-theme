@@ -63,3 +63,7 @@ pygmentsUseClasses = true
     Name = "关于"
     URL = "/about"
     Weight = 2
+
+[Icp]
+  No = "陕ICP备xxxx号-x"
+  HomePage = "https://beian.miit.gov.cn/"

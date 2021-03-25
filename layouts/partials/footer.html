@@ -21,4 +21,9 @@
     <a href="{{ .Site.BaseURL }}" title="{{ .Site.Title }}">{{ .Site.Title }}</a>
     {{ end }}
   </p>
+  {{ if .Site.Icp.No }}
+  <p class="copyright">
+    <a href="{{ .Site.Icp.HomePage }}" target="_blank" title="{{ .Site.Icp.No }}">{{ .Site.Icp.No }}</a>
+  </p>
+  {{ end }}
 </div>
